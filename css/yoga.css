@@ -1,1 +1,102 @@
-ht
+
+*{
+box-sizing: border-box;
+direction: rtl;
+font-family:BFantezy ;
+}
+html{
+    font-family:BFantezy ;
+
+}
+@font-face {
+    font-family: BFantezy;
+    src: url(BFantezy.ttf);
+}
+body{
+
+}
+.header{
+    border-bottom: 1px rgb(218, 213, 213) solid;
+
+}
+.boxheader{
+    width: 100%;
+    
+    background: linear-gradient(to left top ,rgb(219, 248, 54), rgb(1, 161, 41)100%  );
+    
+}
+.menu{
+    border: 30px coral ;
+    border-radius: 30px;
+    box-shadow: 3x 3px rgb(79, 80, 77);
+    display: flex;
+    font-family:fantasy;
+    
+
+}
+.navigation{ 
+    
+
+}
+ li{
+    list-style-type: none;
+    display: flex;
+    padding-left: 20px;
+    font-size: x-large;
+    
+ }
+ a{
+    text-decoration: none;
+   
+ }
+ ul {
+    display: flex;
+    align-content: flex-end;
+   
+ }
+.logo{
+    margin-top: 12px;
+}
+.search{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    align-self: flex-start;
+}
+.gem{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 70px;
+    border: 3px ;
+align-items: center;
+    justify-content: space-around;
+   
+}
+.user{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.basket{
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.menuicon{
+    display: flex;
+   flex-direction: row;
+   justify-content: start;
+   padding-right: 200px;
+   
+   
+}
+
+.gemicin{
+    border: dashed;
+}
